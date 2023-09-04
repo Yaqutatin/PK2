@@ -1,7 +1,14 @@
 h1 {
-  color:#ffff00;
+  color:#e6855e;
+  font-size: 30px;
+  backgorund-color:#f3f372;
+  height:80px;
+  widht:200px;
+  
 }
 
-p {
-  color:#ff0000;
+img {
+  height:50px;
+  widhth:70px;
+
 }
