@@ -14,6 +14,25 @@ body {
       img{
         height:50px;
         width:70px;
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.text {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
 .button {
     display: inline-block;
     padding: 10px 20px; 
