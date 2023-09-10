@@ -30,18 +30,17 @@ body {
 .button {
     /* Gaya tombol */
     display: inline-block;
-    padding: 10px 20px; /* Padding untuk ruang di sekitar teks tombol */
-    font-size: 16px; /* Ukuran teks tombol */
-    background-color: #007bff; /* Warna latar belakang tombol */
-    color: #fff; /* Warna teks tombol */
-    border: none; /* Hapus garis pinggir tombol */
-    border-radius: 5px; /* Sudut bulat tombol */
-    cursor: pointer; /* Tampilan kursor saat mengarahkan ke tombol */
+    padding: 10px 20px; 
+    font-size: 16px; 
+    background-color: #007bff; /
+    color: #fff; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
 }
 
 .button:hover {
-    /* Gaya saat mouse hover */
-    background-color: #0056b3; /* Warna latar belakang berubah saat mouse hover */
+    background-color: #0056b3; 
 }
 
 
