@@ -1,14 +1,22 @@
-h1 {
-  color:#e6855e;
-  font-size: 30px;
-  backgorund-color:#f3f372;
-  height:80px;
-  width:200px;
-  
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('default-background.jpg'); /* Gambar latar belakang default */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
 }
 
-img {
-  height:50px;
-  width:70px;
-
+.container {
+    padding: 50px;
 }
+
+.button {
+    /* Gaya tombol */
+}
+
+#backgroundInput {
+    /* Gaya input untuk memilih gambar latar belakang baru */
+}
+
