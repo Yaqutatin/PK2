@@ -3,10 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <div>
-    <button class="button" onclick="changeBackground()">Ganti Latar Belakang</button>
-    <input type="file" id="backgroundInput" accept="image/*">
-</div>
+    
 
 <script src="script.js"></script>
     <h1>Mark Lee</h1>
@@ -36,6 +33,15 @@
   <li> Lulusan Sekolah Menengah Internasional</li>
   <li>Member Tetap NCT 127</li>
 </u1>
+    <div>
+    <button class="button" onclick="changeBackground()">Ganti Latar Belakang</button>
+    <input type="file" id="backgroundInput" accept="image/*">
+</div>
+     <script>
+        var imageUrl = 'https://raw.githubusercontent.com/username/repository/master/images/https://i.pinimg.com/originals/a6/c4/06/a6c406bca6d4c3d1748c0f51838dc7f9.jpg'; // 
+        document.body.style.backgroundImage = `url(${imageUrl})`;
+    </script>
+
    
  
 
