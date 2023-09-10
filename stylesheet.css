@@ -15,25 +15,17 @@ body {
         height:50px;
         width:70px;
 .container {
-  display: flex;
-  justify-content: space-between;
-  margin: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-.text {
-  border: 1px solid #ccc;
-  padding: 10px;
+.paragraph {
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.6;
 }
 
-.left {
-  text-align: left;
-}
-
-.right {
-  text-align: right;
-}
-
-.button {
     display: inline-block;
     padding: 10px 20px; 
     font-size: 16px; 
