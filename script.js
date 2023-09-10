@@ -1,30 +1,11 @@
-.container {
-  display: flex;
-  justify-content: space-between;
-  margin: 20px;
-}
+function changeBackground() {
+    var input = document.getElementById('backgroundInput');
+    var file = input.files[0];
+    var reader = new FileReader();
 
-.text {
-  border: 1px solid #ccc;
-  padding: 10px;
-}
+    reader.onload = function(e) {
+        document.body.style.backgroundImage = `url(${e.target.result})`;
+    }
 
-.left {
-  text-align: left;
+    reader.readAsDataURL(file);
 }
-
-.right {
-  text-align: right;
-}
-body {
-        color: #e6855e;
-        font-size: 30px;
-        background-color:#f3f372;
-        height: 80px;
-        width: 200px;
-      }
-      img{
-        height:50px;
-        width:70px;
-      
-      }
