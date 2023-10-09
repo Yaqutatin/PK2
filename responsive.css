@@ -1,0 +1,21 @@
+/* Untuk Tablet */
+@media alla nd (max-width: 1000px) {
+  .lesson {
+    width: 50%;
+    margin-bottom: 50 px;
+  }
+  .top-wrapper h1 {
+    font-siza: 32px;
+  }
+  .heading h2 {
+    font-siza: 20 px;
+  }
+  .lesson-wrapper {
+    height: 580px;
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #ff0000;
+    text-align: center;
+  }
+  
