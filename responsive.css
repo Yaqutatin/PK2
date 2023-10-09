@@ -1,9 +1,16 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
   .lesson {
-    width: 50%;
-    margin-bottom: 50 px;
+    width: 100%;
   }
+  footer {
+    text-align: center;
+  }
+  .btn {
+    width: 100%;
+  }
+  .facebook {
+    margin-bottom: 10px;
   .top-wrapper h1 {
     font-siza: 32px;
   }
